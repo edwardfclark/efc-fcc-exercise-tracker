@@ -12,3 +12,7 @@ const weighinSchema = new Schema({
     bodyFat: Number,
     notes: String
 });
+
+const Weighin = mongoose.model("weighin", weighinSchema);
+
+module.exports = Weighin;
