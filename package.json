@@ -1,0 +1,23 @@
+{
+  "name": "efc-fcc-exercise-tracker",
+  "version": "0.0.1",
+  "description": "A simple app designed to help me track my exercise goals.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardfclark/efc-fcc-exercise-tracker.git"
+  },
+  "author": "edwardfclark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardfclark/efc-fcc-exercise-tracker/issues"
+  },
+  "homepage": "https://github.com/edwardfclark/efc-fcc-exercise-tracker#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
