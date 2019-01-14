@@ -7,6 +7,7 @@ const Schema = mongoose.Schema;
 
 const weighinSchema = new Schema({
     userName: String,
+    userId: String,
     date: Date,
     weight: {type: Number, required: [true, "weight field is required"]},
     bodyFat: Number,

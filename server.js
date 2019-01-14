@@ -21,6 +21,7 @@ mongoose.Promise = global.Promise;
 // Initialize routes.
 app.use("/api", routes);
 
+// Requests to the root directory render index.ejs.
 app.get("/", function(req, res) {
     res.render("index", {host: req.hostname, port: port});
 });

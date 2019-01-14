@@ -12,6 +12,7 @@ const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema({
     userName: String,
+    userId: String,
     workoutName: String,
     workoutDate: Date,
     exerciseList: [{
